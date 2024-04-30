@@ -1,0 +1,811 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mybody{
+   min-height: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    overflow-x: hidden;
+}
+
+h1{
+    color: red;
+    text-shadow:0 0 7 rgb(159, 163, 132) ;
+    text-align: center;
+    vertical-align: middle;  
+    font-size: 50px;
+    font-family: "Dancing_Script variant0", Tofu;;
+    margin: 50 25;
+    text-transform: capitalize; 
+}
+.a,.logo{
+    text-decoration: none;
+    color: beige;
+}
+
+.mheader {
+    width: 100%; /* Optional: Set width to 100% for full-width header */
+    height: 50px; /* Adjust the height as needed for your header */
+    justify-content: space-between; /* Horizontal alignment */
+    align-items: center; /* Vertical alignment */
+    margin: 5px; /* Optional: Adjust margin if needed */
+    font-size: 20px; /* Adjust font size if needed */
+    color: bisque; /* Adjust color if needed */
+    position: absolute; /* Fix the header to the top of the page */
+    top: 0; /* Position the header at the top (0 pixels from the top) */
+    left: 0; /* Position the header at the left (0 pixels from the left) */
+    z-index: 10; /* Optional: Set a higher z-index to ensure the header stays on top of other elements */
+  }
+
+.mheader.logo{
+    font-size: 25px;
+}
+.mheader ul{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    text-align: justify;
+    position: absolute;
+    right: 10%;
+    bottom: -40%;
+    
+}
+.mheader ul li{
+    margin-right: 30PX;
+    display: block;
+    box-shadow: 0 0 10px rgb(184, 175, 175);
+
+}
+    
+.mheader ul li a{
+    padding: 6px 15px;
+    border-radius: 20px;
+    align-content: center;
+   
+    
+}
+.mheader ul li a:hover{
+    background: rgba(155, 54, 54, 0.547);
+    color:black
+}
+.search-bar{
+    width: 50%;
+    position: absolute;
+    left: 25%;
+    box-shadow: 0 0 16px gold;
+    color: red;
+}
+.search-input{
+
+    width: 95%;
+    padding: 10px;
+    color: red;
+    box-shadow: 0 0 16px rgb(227, 86, 15) ;
+}
+.search-input::placeholder{
+    color: red;
+    font-size: 20px;
+    box-shadow: 0 0 15px rgb(194, 155, 130);
+}
+.fas fa-search{
+    box-shadow: 0 0 16px silver;
+}
+.pho{
+    border-radius: 7px;
+    position: absolute;
+    top: 24%;
+    right: 52%;
+}
+.logo{
+    position: absolute;
+    left:100px;
+    top: 30px;
+}
+.foo{
+    background: rgba(0, 0, 0, 0.196);
+    width: 100%;height: 80px;
+    bottom: 100%;
+}
+.copy{
+    text-align: center;
+    padding: 20px;
+    color: rgb(137, 48, 40);
+    font-size: 30px;
+    text-transform: capitalize;
+}
+.about{
+  background-color:rgb(22, 18, 18);
+    width: 100%;
+    min-width: 400px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .about p{
+    color: bisque;
+    font-size: 20px;
+ }
+ .about div{
+    height: 370;
+    width: 335;
+    border-radius: 5px;
+    margin: 5px;
+    height: 100px;
+    color: brown;
+    font-size: 30px;
+    background-color: rgba(67, 11, 11, 0.252);
+    text-align: center;
+    text-transform: capitalize;
+ }
+ .why,.interset{
+    margin: 20px;
+ }
+
+.sections{
+    background-color:rgb(42, 39, 39);
+    width: 100%;
+    min-width: 400px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sections div{
+    height: 370;
+    width: 335;
+    border-radius: 25px;
+    margin: 20px;
+    height: 100px;
+    color: brown;
+    font-size: 30px;
+    background-color: rgba(67, 11, 11, 0.252);
+    text-align: center;
+    text-transform: capitalize;
+ }
+.car,.ara{
+    padding:20px;
+}
+.sections p{
+    color: bisque;
+    font-size: 20px;
+ }
+ .list{
+    width: 100%;
+    height: 1350px ;
+    background-image: url(../images/about.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ .list.nemo{
+    color: brown;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+.table{
+    border: 5px solid rgba(186, 38, 38, 0.229);
+    color: antiquewhite;
+    box-shadow: 0 0 10px red;
+    width: 70%;
+    position: absolute;
+    bottom: -290%;
+    right: 15%;
+}
+.nemo{
+    color: brown;
+    font-size: 40px;
+    text-transform: capitalize;
+    text-align: center; 
+    position: absolute;
+    bottom: -125%;
+    left: 40%;
+    padding: 20px;
+    box-shadow: 0 0 16px beige;
+   
+
+}
+.kiko{
+    border:4px solid rgba(186, 38, 38, 0.229) ;
+    box-shadow: 0 0 10px red;
+    margin: 10;
+}
+.data{
+    border:4px solid rgba(186, 38, 38, 0.229) ;
+    box-shadow: 0 0 10px red;
+    text-align: center;
+    
+}
+.head{
+   border:4px solid rgba(186, 38, 38, 0.229) ;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    background: rgb(84, 82, 82);  
+}
+.img{
+    position: absolute;
+    left: -5%;
+}
+.fo{
+    font-size: 40px;
+    color: rgb(79, 26, 26);
+    text-align: center;
+    margin-bottom: 10px;
+    position: absolute;
+    top: 405%;
+    right: 42%;
+}
+.form{
+    width: 600px;
+    text-align: center;
+}
+.in{
+    display: flex;
+    justify-content: space-between;
+}
+.k{
+    width: 100%;
+    padding: 18px;
+    background: transparent;
+    border: 2px solid rgba(125, 62, 62, 0.797);
+    outline: none;
+    border-radius: 6px;
+    font-size: 16px;
+    margin: 7px  0;
+    box-shadow: 0 0 10px crimson;
+}
+.error{
+    padding: 2px;
+    margin-top: -10px;
+
+
+}
+.text{
+    resize: none;
+}
+.bot{
+    padding: 12px 32px;
+    background: rgb(201, 63, 63);
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    box-shadow: 0 0 10px red;
+    font-size: 16px;
+    cursor: pointer;
+}
+.map{
+    position: absolute;
+    top:420%;
+    left: 76%;
+    box-shadow: 0 0 16px red;
+    border-radius: 10px;
+}
+
+/*main2*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+#my.body1{
+    background-image: url("../images/ty.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 3000px;
+    background-size: cover;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    overflow-x: hidden;
+}
+.a{
+    text-decoration: none;
+    color: beige;
+}
+.header {
+    width: 100%; /* Optional: Set width to 100% for full-width header */
+    height: 50px; /* Adjust the height as needed for your header */
+    justify-content: space-between; /* Horizontal alignment */
+    align-items: center; /* Vertical alignment */
+    margin: 5px; /* Optional: Adjust margin if needed */
+    font-size: 20px; /* Adjust font size if needed */
+    color: bisque; /* Adjust color if needed */
+    position: absolute; /* Fix the header to the top of the page */
+    top: 0; /* Position the header at the top (0 pixels from the top) */
+    left: 0; /* Position the header at the left (0 pixels from the left) */
+    z-index: 10; /* Optional: Set a higher z-index to ensure the header stays on top of other elements */
+  }
+.header.logo{
+    font-size: 25px;
+}
+.logo{
+    text-decoration: none;
+    color: beige;
+    position: absolute;
+    top: 50%;
+    left:100px;
+}
+.header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    text-align: justify;
+    position: absolute;
+    right: 10%;
+    bottom: -40%;
+    
+}
+.header ul li{
+    margin-right: 30PX;
+    display: block;
+    box-shadow: 0 0 10px rgba(87, 6, 6, 0.729);
+}
+    
+.header ul li a{
+    padding: 6px 15px;
+    border-radius: 20px;
+    align-content: center;
+}
+.header ul li a:hover{
+    background: rgba(120, 14, 14, 0.626);
+    color:black
+}
+.pho{
+    position: absolute;
+    left: 5px;
+    top: 5px;
+}
+
+.p{
+    color:rgb(240, 235, 235);
+    font-size: 20px;
+    margin: 20px;
+}
+
+.mshow1,.mshow2,.mshow3,.mshow4,.mshow5,.mshow6{
+    color: rgba(255, 47, 0, 0.786);
+    background-color: rgba(218, 203, 201, 0.353);
+    font-size: 30px;
+    border-radius: 6px;
+    margin: 20px auto;  
+    direction: rtl;  
+    padding: 10px; 
+    transition: 0.2s;
+}
+.box button:hover{
+    color:rgb(212, 183, 179);
+    height: 60px;
+    
+}
+
+.iframe{
+  margin: 20px;
+  border-radius: 6px;
+
+}
+.msummary1,.msummary2,.msummary3,.msummary4,.msummary5,.msummary6{
+    display: none;
+    margin-top: 20%;
+    
+}
+.mhide1 , .mhide2,.mhide3 ,.mhide4,.mhide5 , .mhide6{
+    color: rgba(255, 47, 0, 0.786);
+    background-color: rgba(218, 203, 201, 0.353);
+    font-size: 30px;
+    border-radius: 6px;
+    margin: 15px auto;  
+    direction: rtl;  
+    padding: 10px;
+    display: none;
+    position: absolute;
+    top: 30%;
+    right: 45%;
+}
+
+.box {
+    margin-top: 150px;
+    margin-left: 10%;
+    margin-right: 10%;
+    direction: rtl;
+    width:100% auto; 
+    height: 1700px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit minmax(320px,1fr));
+    grid-template-rows: repeat(12, 166px);
+}
+    
+.mb1{
+    grid-column: 2/5;
+    grid-row: 2/5;
+    
+    
+}
+.mb2{
+    grid-column:5/8 ;
+    grid-row: 2/5;
+   
+}
+.mb3{
+    grid-column:8/12 ;
+    grid-row: 2/5;
+    
+}
+.mb4{
+    grid-column: 2/5;
+    grid-row: 7/10;
+   
+}
+.mb5{
+    grid-column: 5/8;
+    grid-row: 7/10;
+   
+    
+}
+.mb6{
+    grid-column:8/12 ;
+    grid-row: 7/10;
+    
+    
+}
+.mshow1{
+    position: absolute;
+    bottom: -45%;
+    right: 10%;
+    margin: 10px;
+}
+.mshow4{
+    position: absolute;
+    bottom: -165%;
+    left: 80%;
+    margin: 10px;
+}
+
+.mshow2{
+    position: absolute;
+   bottom: -45%;
+    left:55%;
+    margin: 10px;
+}
+
+.mshow5{
+    position: absolute;
+    bottom: -165%;
+    left: 52%;
+    margin: 10px;
+}
+.mshow3{
+    position: absolute;
+    bottom: -45%;
+    right: 60%;
+    margin: 10px;
+}
+.mshow6{
+    position: absolute;
+    bottom: -165%;
+    left: 25%;
+    margin: 10px;
+}
+.h2{
+    color: bisque;
+}
+.my{
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    color: rgba(255, 47, 0, 0.786);
+    background-color: rgba(218, 203, 201, 0.353);
+    font-size: 20px;
+    border-radius: 6px;
+    margin: 10px auto;  
+    padding: 10px;
+    direction: ltr;  
+     
+}
+
+.h3{
+    color: bisque;
+    text-align: center;
+    padding: 10px;
+}
+.vo{
+    margin-top: 40px;
+   display: flex;  
+}
+.vo1,.vo2,.vo3{
+    margin: 50px;
+    background-color: rgb(64, 57, 57);
+    box-shadow: 0 0 16px rgba(255, 47, 0, 0.786);
+    padding: 20px;
+    border-radius: 10px; 
+}
+.search-bar{
+    width: 50%;
+    position: absolute;
+    top: 220%;
+    left: 25%;
+    box-shadow: 0 0 16px gold;
+    color: red;
+}
+.search-input{
+
+    width: 95%;
+    padding: 10px;
+    color: red;
+    box-shadow: 0 0 16px rgb(227, 86, 15) ;
+}
+.search-input::placeholder{
+    color: red;
+    font-size: 20px;
+    box-shadow: 0 0 15px rgb(194, 155, 130);
+}
+.fas fa-search{
+    box-shadow: 0 0 16px silver;
+}
+.listo{
+    position: absolute;
+    margin: 10px;
+    top:440%;
+    left: 10%;
+    width: 70%;
+}
+
+/*main3*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.body{
+    background-image: url(../images/poo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    overflow-x: hidden;
+}
+
+.a{
+    text-decoration: none;
+    color: beige;
+}
+.headeer{
+    width: 100%;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+    font-size: 20px;
+    color:bisque;
+    position: fixed;
+    top: 5px;
+    
+}
+.headeer.logo{
+    font-size: 25px; 
+}
+.logo{
+    text-decoration: none;
+    color: beige;
+    position: absolute;
+    top: 50%;
+    left:100px;
+}
+.headeer ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    text-align: justify;
+    position: absolute;
+    right: 10%;
+    bottom: -40%;
+    
+}
+.h2 .a{
+    position: absolute;
+    top:50%;
+}
+.headeer ul li{
+    margin-right: 30PX;
+    display: block;
+
+
+}
+    
+.headeer ul li a{
+    padding: 6px 15px;
+    border-radius: 20px;
+    align-content: center;
+   
+    
+}
+.headeer ul li a:hover{
+    background: rgb(131, 97, 97);
+    color:black
+}
+
+.pho{
+    position: absolute;
+    left: 5px;
+    top: 5px;
+}
+
+
+.myshow1,.myshow2,.myshow3,.myshow4{
+    color: rgba(255, 47, 0, 0.786);
+    background-color: rgb(236, 171, 31);
+    font-size: 30px;
+    border-radius: 6px;
+    margin: 10px auto;  
+    padding: 10px;
+    direction: ltr;   
+    
+}
+.boox button:hover{
+    color:rgb(212, 183, 179);
+    height: 60px;
+    
+}
+.myhide1 , .myhide2,.myhide3 ,.myhide4{
+    display: none;
+    position: absolute;
+    top: 90%;
+    right: 50%;
+    padding: 10px;
+    color: rgba(255, 47, 0, 0.786);
+    background-color: rgba(218, 155, 20, 0.9);
+    font-size: 30px;
+    border-radius: 6px;
+    margin: 10px auto;  
+    padding: 10px;
+    direction: ltr
+
+}
+.info1,.info2,.info3,.info4 {
+    display: none;
+    position: absolute;
+    right: 35%;
+}
+.boox {
+    margin-top: 200px;
+    margin-left: 10%;
+    margin-right: 10%;
+    direction: ltr;
+    width: 1150px; 
+    height: 1700px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit minmax(420px,1fr));
+    grid-template-rows: repeat(10, 140px);  
+}
+.myb1{
+    grid-column:2/5;
+    grid-row: 1/5;
+    left: 20%;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgba(79, 7, 7, 0.279);
+    position: absolute;
+    box-sizing: border-box;
+    border: 10px solid rgba(224, 191, 123, 0.751);
+    direction: ltr;
+}
+.myb2{
+    grid-column: 6/9;
+    grid-row:1/5 ;
+    padding: 20px;
+    position: absolute;
+    left: 60%;
+    background-color: rgba(79, 7, 7, 0.279);
+    border-radius: 6px;
+    box-sizing: border-box;
+    border: 10px solid rgba(224, 191, 123, 0.751);
+    direction: ltr;
+}
+.myb3{
+    grid-column: 2/5;
+    grid-row:6/10;
+    padding: 20px;
+    background-color: rgba(79, 7, 7, 0.279);
+    border-radius: 6px;
+    box-sizing: border-box;
+    border: 10px solid rgba(224, 191, 123, 0.751);
+    direction: ltr;
+}
+.myb4{
+    grid-column:6/9;
+    grid-row:6/10;
+    padding: 20px;
+    background-color: rgba(79, 7, 7, 0.279);
+    border-radius: 6px;
+    box-sizing: border-box;
+    border: 10px solid rgba(224, 191, 123, 0.751);
+    direction: ltr;
+}
+
+.myshow1{
+    position: absolute;
+    bottom: -20%;
+    right: 65%;
+}
+.myshow4{
+    position: absolute;
+    bottom: -110%;
+    right: 15.5%;
+}
+.myshow2{
+    position: absolute;
+    bottom: -20%;
+    right: 25%;
+}
+.myshow3{
+    position: absolute;
+    bottom: -110%;
+    right: 53%;
+}
+.h3{
+    color: antiquewhite;
+    margin: 10px;
+    text-align: left;
+}
+.contian{
+    width: 100%;
+    overflow: hidden;
+    margin: 10px auto;
+    margin: left 20px; 
+    padding: 10px 0;
+}
+.contian ul{
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 210%;
+
+}
+.contian ul li{
+    border-radius: 10px;
+    list-style: none;
+    float: left;
+    background-color: rgb(162, 86, 49);
+    width: 30%;
+    height: 400px;
+    margin: 20px;
+    box-sizing: border-box;
+    border: 2px solid rgba(224, 191, 123, 0.751);
+    text-align: center;
+}
+.contian ul li audio{
+    height: 100px;
+}
+.contian ul li .lo{
+    width: 60%;
+    height: 50px;
+    line-height: 50px;
+    background-color: blanchedalmond;
+    box-shadow: 0 0 10px red;
+    margin: 15px;
+    border-radius: 10px;
+    
+}
+.mm{
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    color: rgba(210, 44, 44, 0.786);
+    background-color: rgba(199, 147, 79, 0.895);
+    font-size: 20px;
+    border-radius: 6px;
+    margin: 10px auto;  
+    padding: 10px;
+    direction: ltr;   
+}
